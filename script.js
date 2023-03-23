@@ -27,7 +27,7 @@ console.log(myCollection);
 
 results.innerHTML = Object.values(myCollection).map( (jeu, index) =>`
     <div class="MarioBros">
-        <h2>Titre :  ${jeu.titres}</h2>
+        <h2>Titre :  ${jeu.titre}</h2>
         <h3>Consoles : ${jeu.consoles}</h3>
         <h4>Année : ${jeu.annee}</h4>
         <button class="mein_popUp" id = ${"MarioBros" + (index+=1)}>Détails</button>

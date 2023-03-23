@@ -12,20 +12,24 @@ body {
 .MarioBros {
     color: #fff;
     border: solid 6px #fff;
+    text-align: center;
     border-radius: 10px;
     width: 300px;
-    height: 160px;
-    font-size: 17px;
+    height: 170px;
+    font-size: 15px;
  }
 .MarioBroscomp {
-    /* display: wrap; */
-    flex-wrap:wrap;
-    justify-content: space-around;
-
-    /* align-items: center; */
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     display: flex;
-    margin-bottom: 100px;
-
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 250px;
+    gap: 30px;
 }
 /* .box {
     width: 320px;
