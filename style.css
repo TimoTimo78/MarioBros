@@ -9,11 +9,6 @@ body {
     background-repeat: no-repeat;
     font-family: 'New Super Mario Font U', sans-serif;
 }
-header {
-    display: flex;
-    align-items: center;
-    
-}
 .MarioBros {
     color: #fff;
     border: solid 6px #fff;
@@ -23,8 +18,22 @@ header {
     font-size: 17px;
  }
 .MarioBroscomp {
-    display: flex;
+    /* display: wrap; */
+    flex-wrap:wrap;
     justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+
+    /* align-items: center; */
+    display: flex;
+    margin-bottom: 100px;
+
 }
+/* .box {
+    width: 320px;
+    margin: 10rem auto;
+    padding-top: 10rem;
+    background: rgba: (255,255,255,0.3);
+    padding: 2.5rem;
+    bottom: 2px solid #ddd;
+    border-radius: 20px/50px;
+
+} */
