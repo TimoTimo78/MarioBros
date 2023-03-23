@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(img/379932.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'New Super Mario Font U', sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    
+}
+.MarioBros {
+    color: #fff;
+    border: solid 6px #fff;
+    border-radius: 10px;
+    width: 300px;
+    height: 160px;
+    font-size: 17px;
+ }
+.MarioBroscomp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
