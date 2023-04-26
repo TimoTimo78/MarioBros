@@ -34,14 +34,23 @@ results.innerHTML = Object.values(myCollection).map( (jeu, index) =>`
     </div>
     `).join("");
 
-    console.log('mein_popUp');
-    for (let index = 0; index < mein_popUp.length; index++) {
-        const jeu = mein_popUp [index];
-        console.log(jeu.getAttribute('MarioBros'))
+    // console.log('mein_popUp');
+
+    // for (let index = 0; index < mein_popUp.length; index++) {
+    //     const jeu = mein_popUp [index];
+    //     console.log(jeu.getAttribute('MarioBros'))
+    // }
+
+    // ************************************popUp************************************
+
+    for (let index = 0; index < jeu.length; index++) {
+        const jeu = boutons[index];
+        console.log(jeu.getAttribute('MarioBros'));
+        jeu.addEventListener('click', ()=>{
+            console.log(jeu);
+            popupContainer.classList.toggle('active');
+            })
     }
-
-
-
 
 // for (const key in mesConsoles){
 //     console.log(mesConsoles[key]);
